@@ -37,7 +37,7 @@ const socialLinks: SocialLink[] = [
 
 export const SocialLinks = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mt-8 sm:mt-12 px-4">
+    <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-6 mt-8 sm:mt-12 px-4">
       {socialLinks.map((link) => {
         const IconComponent = link.icon;
         return (

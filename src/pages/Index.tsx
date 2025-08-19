@@ -23,7 +23,7 @@ const Index = () => {
       
       {hasEntered && (
         <div className="relative z-20 min-h-screen flex flex-col items-center justify-center text-center px-4 py-8">
-          <div className="mb-8">
+          <div className="mb-12">
             <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 sm:mb-6 text-white glow-text-red font-orbitron leading-tight">
               <TypewriterAnimation 
                 texts={["ney0000o"]} 
@@ -32,17 +32,17 @@ const Index = () => {
                 pauseTime={2000}
               />
             </h1>
-            
-            <div className="mb-6 sm:mb-8 px-2 h-16 w-full max-w-md mx-auto">
-              <TextPressure 
-                text="gaming since 2014"
-                textColor="#FF0000"
-                strokeColor="#FFFFFF"
-                stroke={true}
-                minFontSize={16}
-                className="glow-text-red"
-              />
-            </div>
+          </div>
+          
+          <div className="mb-8 sm:mb-12 px-2 h-16 w-full max-w-md mx-auto">
+            <TextPressure 
+              text="gaming since 2014"
+              textColor="#FF0000"
+              strokeColor="#FFFFFF"
+              stroke={true}
+              minFontSize={16}
+              className="glow-text-red"
+            />
           </div>
           
           <SocialLinks />
